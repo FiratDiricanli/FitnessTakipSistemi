@@ -1,28 +1,27 @@
 # 🏋️ Fitness ve Hedef Takip Sistemi
 
-Bireylerin antrenman programlarını, beslenme verilerini ve fiziksel gelişimlerini dijital ortamda izlemeleri için tasarlanmış gelişmiş bir **C# Windows Forms** yazılımıdır.
+Kullanıcıların günlük egzersizlerini ve beslenme bilgilerini basit bir liste üzerinden takip etmelerini sağlayan bir **C# Windows Forms** uygulamasıdır.
 
 ---
 
 ## 🚀 Özellikler
 
-*   💪 **Antrenman Günlüğü:** Egzersiz türü, set, tekrar ve ağırlık verilerinin detaylı kaydı.
-*   🍎 **Kalori Hesaplayıcı:** Günlük alınan besinlerin ve kalori miktarlarının takibi.
-*   📈 **Hedef Analizi:** Kilo ve BMI değişimlerini raporlayan gelişim modülü.
-*   📋 **Egzersiz Kütüphanesi:** Kas gruplarına göre ayrılmış hazır antrenman listeleri.
+*   💪 **Egzersiz Listesi:** Yapılan hareketlerin ve set sayılarının kaydedilmesi.
+*   🍎 **Beslenme Takibi:** Günlük yenen yemeklerin ve tahmini kalorilerin girilmesi.
+*   ⚖️ **Hedef Girişi:** Mevcut kilonun ve hedef kilonun sisteme işlenmesi.
+*   📋 **Geçmişi Görüntüleme:** Girilen verilerin liste (DataGridView) üzerinden izlenmesi.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-*   **C# (.NET)**
-*   **Windows Forms App**
-*   **Koleksiyon Yönetimi (Generic Lists)**
+*   **C# (Windows Forms)**
+*   **Listeler (Generic Collections)**
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-1.  **Projeyi Yükleyin:** Visual Studio ile solution dosyasını açın.
-2.  **Hata Kontrolü:** Eksik referansları NuGet üzerinden otomatik geri yükleyin.
-3.  **Çalıştırın:** Üst paneldeki yeşil **"Start"** butonuyla uygulamayı başlatın.
+1.  Projeyi Visual Studio üzerinde açın.
+2.  Hatalı bir referans varsa sağ tıklayıp "Restore NuGet Packages" yapın.
+3.  **F5** ile uygulamayı başlatıp verilerinizi girmeye başlayın.
